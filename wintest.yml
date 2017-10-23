@@ -1,0 +1,22 @@
+---
+name: wintest
+
+# replace with `bosh status --uuid`
+director_uuid: a90e23d2-99b4-490d-9f17-64ab630d6999
+
+resources:
+  - name: getip
+    type: git
+    source: 
+      uri: https://github.com/OpusDude/cc-win-worker
+      branch: master
+
+jobs:
+  - name: test
+    plan:
+      - aggregate:
+        - get: getip
+          trigger: true
+      - task: run
+        privileged: true
+        file: getip/getip.ps1
