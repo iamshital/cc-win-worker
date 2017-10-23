@@ -17,6 +17,6 @@ jobs:
       - aggregate:
         - get: getip
           trigger: true
-      - task: run
+      - task: execute
         privileged: true
-        file: config/cc-win.yml
+        file: getip/config/cc-win.yml

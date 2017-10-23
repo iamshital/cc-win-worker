@@ -6,4 +6,4 @@ platform: windows
 run:
   dir: cc-win
   path: powershell
-  args: ["-File", "bin/getip.ps1"]
+  args: ["-File", "code/bin/getip.ps1"]
