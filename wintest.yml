@@ -19,4 +19,4 @@ jobs:
           trigger: true
       - task: execute
         privileged: true
-        file: getip/config/cc-win.yml
+        file: cc-win.yml
