@@ -1,7 +1,7 @@
 platform: windows
 
-#inputs:
-#  - name: cc-win
+inputs:
+  - name: cc-win
   
 run:
   dir: cc-win
