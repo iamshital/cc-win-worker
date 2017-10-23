@@ -1,0 +1,8 @@
+platform: windows
+
+inputs:
+  - name: cc-win
+  
+run:
+  dir: cc-win
+  path: powershell
