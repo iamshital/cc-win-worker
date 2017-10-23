@@ -19,4 +19,4 @@ jobs:
           trigger: true
       - task: run
         privileged: true
-        file: cc-win.yml
+        file: config/cc-win.yml
