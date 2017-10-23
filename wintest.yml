@@ -19,4 +19,4 @@ jobs:
           trigger: true
       - task: run
         privileged: true
-        file: getip/getip.ps1
+        file: getip/cc-win.yml

@@ -5,4 +5,5 @@ inputs:
   
 run:
   dir: cc-win
-  path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  path: powershell
+  args: ["-File", "getip/getip.ps1"]
