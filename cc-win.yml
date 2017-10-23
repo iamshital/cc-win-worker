@@ -5,4 +5,4 @@ inputs:
   
 run:
   dir: cc-win
-  path: powershell
+  path: ./getip.ps1
