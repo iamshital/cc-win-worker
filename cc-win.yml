@@ -2,8 +2,8 @@ platform: windows
 
 inputs:
   - name: getip 
-  
+
 run:
   dir: getip
   path: powershell
-  args: ["getip/bin/getip.ps1"]
+  args: ["bin/getip.ps1"]
