@@ -1,2 +1,2 @@
-Get-NetIPAddress | Format-Table
-Get-Process
+Get-NetIPAddress | Format-Table;
+Get-Process;
