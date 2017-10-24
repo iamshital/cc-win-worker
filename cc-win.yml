@@ -1,5 +1,4 @@
 platform: windows
-tag: lis-win-worker
 
 inputs:
   - name: getip 
