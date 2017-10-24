@@ -1,10 +1,10 @@
 platform: windows
 
 inputs:
-  - name: cc-win
+  - name: getip 
   
 run:
-  dir: cc-win
+  dir: getip
   path: powershell
   args: ["Start-Sleep -s 180"]
   #args: ["c:\\progra~1\\Git\\bin\\git.exe clone https://github.com/OpusDude/cc-win-worker"]
