@@ -6,8 +6,4 @@ inputs:
 run:
   dir: getip
   path: powershell
-  args: ["Start-Sleep -s 180"]
-
-run:
-  path: powershell
   args: ["getip/bin/getip.ps1"]
