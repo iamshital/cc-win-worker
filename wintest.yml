@@ -8,7 +8,7 @@ resources:
   - name: getip
     type: git
     source: 
-      uri: https://192.30.253.112/OpusDude/cc-win-worker
+      uri: https://github.com/OpusDude/cc-win-worker
       branch: master
 
 jobs:
