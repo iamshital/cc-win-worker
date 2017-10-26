@@ -4,25 +4,26 @@ name: wintest
 # replace with `bosh status --uuid`
 director_uuid: a90e23d2-99b4-490d-9f17-64ab630d6999
 
+
 resources:
   - name: Initiator
     type: git
-    source: 
+    source:
       uri: https://github.com/iamshital/cc-win-worker
       branch: master
   - name: AutomationCode
     type: git
-    source: 
+    source:
       uri: https://github.com/iamshital/azure-linux-automation
       branch: master
 
-
 jobs:
-  - name: test
+  - name: CloudTest
     plan:
       - aggregate:
-        - get: getip
+        - get: AutomationCode
+        - get: Initiator
           trigger: true
       - task: execute
         privileged: true
-        file: getip/cc-win.yml
+        file: Initiator/cc-win.yml
