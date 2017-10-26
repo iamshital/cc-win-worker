@@ -1,9 +1,9 @@
 platform: windows
 
 inputs:
-  - name: getip 
+  - name: AutomationCode 
 
 run:
-  dir: getip
+  dir: AutomationCode
   path: powershell
   args: ["bin/getip.ps1"]
