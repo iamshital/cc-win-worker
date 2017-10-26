@@ -5,4 +5,4 @@ inputs:
 run:
   dir: AutomationCode
   path: powershell
-  args: ["Copy-Item -Path C:\concourse-worker\common-files\* -Destination . -Recurse -Verbose -Force; dir;"]
+  args: ["dir"]
