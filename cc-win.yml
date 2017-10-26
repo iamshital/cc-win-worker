@@ -1,9 +1,8 @@
 platform: windows
 
 inputs:
-  - name: Initiator
-
+  - name: AutomationCode
 run:
-  dir: Initiator
+  dir: AutomationCode
   path: powershell
-  args: ["bin/getip.ps1"]
+  args: ["Copy-Item -Path C:\concourse-worker\common-files\* -Destination . -Recurse -Verbose -Force; dir;"]
