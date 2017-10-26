@@ -5,5 +5,4 @@ inputs:
 run:
   dir: AutomationCode
   path: powershell
-  args: ["C:\concourse-worker\common-files\Start.ps1"]
-
+  args: ["C:\\concourse-worker\\common-files\\Start.ps1"]
