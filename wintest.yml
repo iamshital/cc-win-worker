@@ -5,11 +5,17 @@ name: wintest
 director_uuid: a90e23d2-99b4-490d-9f17-64ab630d6999
 
 resources:
-  - name: getip
+  - name: Initiator
     type: git
     source: 
       uri: https://github.com/iamshital/cc-win-worker
       branch: master
+  - name: AutomationCode
+    type: git
+    source: 
+      uri: https://github.com/iamshital/azure-linux-automation
+      branch: master
+
 
 jobs:
   - name: test
