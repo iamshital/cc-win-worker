@@ -6,3 +6,7 @@ run:
   dir: AutomationCode
   path: powershell
   args: ["dir"]
+run:
+  dir: AutomationCode
+  path: powershell
+  args: ["dir"]
