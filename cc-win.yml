@@ -1,9 +1,9 @@
 platform: windows
 
 inputs:
-  - name: AutomationCode 
+  - name: Initiator
 
 run:
-  dir: AutomationCode
+  dir: Initiator
   path: powershell
   args: ["bin/getip.ps1"]
