@@ -2,6 +2,7 @@ platform: windows
 
 inputs:
   - name: AutomationCode
+  - name: Initiator
 run:
   dir: AutomationCode
   path: powershell
